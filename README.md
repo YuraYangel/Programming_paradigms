@@ -1,2 +1,1 @@
-# Programming_paradigms
-LinkedList to Balanced Binary Tree. 
+###Первая лабораторная работа по дисциплине "Парадигимы программирования"
