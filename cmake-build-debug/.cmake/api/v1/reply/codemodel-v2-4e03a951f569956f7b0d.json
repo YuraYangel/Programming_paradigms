@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/arlos/CLionProjects/BBT/cmake-build-debug",
-		"source" : "C:/Users/arlos/CLionProjects/BBT"
+		"build" : "C:/Users/arlos/CLionProjects/Programming_paradigms/cmake-build-debug",
+		"source" : "C:/Users/arlos/CLionProjects/Programming_paradigms"
 	},
 	"version" : 
 	{

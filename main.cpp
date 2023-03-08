@@ -16,9 +16,9 @@ public:
 };
 
 std::vector <int> vectorFill() {
-    std::vector <int> vectorCopy;
-    std::fstream input("text2.txt");
-    std::copy(std::istream_iterator<int>(input), std::istream_iterator<int>(), std::back_inserter(vectorCopy));
+    vector <int> vectorCopy;
+    fstream input("text2.txt");
+    copy(istream_iterator<int>(input), istream_iterator<int>(), back_inserter(vectorCopy));
     return vectorCopy;
 }
 
@@ -44,6 +44,7 @@ void print(TreeNode* root) {
     rootQueue.push(root);
     bfs(rootQueue);
 }
+
 int main() {
     vector<int> vec = vectorFill();
     print(getBalancedTree(vec));
